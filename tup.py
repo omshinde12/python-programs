@@ -1,0 +1,10 @@
+tup=('apple','orange',2018)
+print(tup)
+tup2=(1,2,3)
+print(tup2)
+A=(3,4.6,"tybca")
+print(A)
+P,Q,R=A
+print(P)
+print(Q)
+print(R)

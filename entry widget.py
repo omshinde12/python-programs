@@ -1,0 +1,10 @@
+from tkinter import*
+top=Tk()
+top.geometry("200x100")
+l1=Label(top,text="user Name")
+l1.pack(side=LEFT)
+E1=Entry (top,bd=5)
+E1.pack(side=RIGHT)
+b=Button(top,text="submit")
+b.pack(side=BOTTOM)
+top.mainloop()

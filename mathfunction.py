@@ -1,0 +1,15 @@
+#write a python program to make use of follwing function of math exp(),floor()etc.
+import math
+n=int(input("enter value to find exp:"))
+print("exp:",math.exp(n))
+n=float(input("enter value to find floor:"))
+print("floor:",math.floor(n))
+n=int(input("enter value to find factorial:"))
+print("factorial:",math.factorial(n))
+n=int(input("enter value to find sqrt:"))      
+print("sqrt:",math.sqrt(n))
+n=int(input("enter value to find power:"))
+p=int(input("enter value to find power:"))
+print("pow:",math.pow(n,p))
+n=int(input("enter a value to find cos:"))
+print("cos:",math.cos(n))
